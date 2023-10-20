@@ -1,0 +1,25 @@
+Вывод по задаче №2
+Мною протестировано 3 алгоритма: решето Эратосфена, решето Сундарама и альтернативный рукописный вариант (https://habr.com/ru/articles/122538/)
+Сложность у данных алгоритмов примерно одинаковая.
+Затраченное время на поиск простых чисел:
+
+Решето Эратосфена:
+1000 loops, best of 5: 19.4 usec per loop 40
+1000 loops, best of 5: 51.6 usec per loop 100
+1000 loops, best of 5: 3.31 msec per loop 400
+1000 loops, best of 5: 52.8 msec per loop 65000
+
+Решето Сундарама:
+1000 loops, best of 5: 26.9 usec per loop 40
+1000 loops, best of 5: 68.4 usec per loop 100
+1000 loops, best of 5: 381 usec per loop 400
+1000 loops, best of 5: 127 msec per loop 65000
+
+Рукописный алгоритм:
+1000 loops, best of 5: 14.9 usec per loop 40
+1000 loops, best of 5: 52.3 usec per loop 100
+1000 loops, best of 5: 275 usec per loop 400
+1000 loops, best of 5: 141 msec per loop 65000
+
+Вывод 
+Алгоритм на основе решета Эратосфена справляется с поставленной задачей быстрее. Особенно это видно с увеличенем границ поиска.
